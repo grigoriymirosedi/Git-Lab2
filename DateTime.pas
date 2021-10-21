@@ -6,11 +6,6 @@ begin
     result := False;
 end;
 
-function SecondsInMinute(minutes: integer) : integer;
-begin
-  result := minutes * 60;
-end;
-
 begin
   
 end.
