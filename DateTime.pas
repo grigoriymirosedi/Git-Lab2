@@ -18,10 +18,15 @@ end;
 
 function DaysInYear(year: integer): string;
 begin
-  if IsLeapYear then
+  if IsLeapYear(year) then
     result := $'В {year} году 366 дней'
   else
-    reuslt:= $'В {year} году 365 дней'
+    result:= $'В {year} году 365 дней'
+end;
+
+function DaysInYearRange (range_1, range_2 : integer): integer;
+begin
+  // TODO
 end;
 
 begin
