@@ -28,7 +28,16 @@ function DaysInYearRange (range_1, range_2 : integer): integer;
 begin
   // TODO
 end;
+  
+function SeconsInHours (hour: integer): integer;
+begin
+  // TODO
+end; 
 
+function IsYearOfApocalypse (year : integer): boolean;
+begin
+  // TODO
+end;
 begin
   
 end.
