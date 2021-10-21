@@ -16,6 +16,19 @@ begin
     result := $'{day_2} ближе к новому году.'
 end;
 
+function DaysInYear(year: integer): string;
+begin
+  if IsLeapYear(year) then
+    result := $'В {year} году 366 дней'
+  else
+    result:= $'В {year} году 365 дней'
+end;
+
+function DaysInYearRange (range_1, range_2 : integer): integer;
+begin
+  // TODO
+end;
+
 begin
   
 end.
