@@ -6,6 +6,16 @@ begin
     result := False;
 end;
 
+function LaterInYear(day_1, day_2 : integer): string;
+begin
+  if (30 - day_1) < (30 - day_2) then
+    result := $'{day_1} ближе к новому году.'
+  else if (30 - day_1) = (30 - day_2) then
+    result := $'{day_1} и {day_2} совпадают по кол-ву до нового года.'
+  else
+    result := $'{day_2} ближе к новому году.'
+end;
+
 begin
   
 end.
